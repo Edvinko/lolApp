@@ -7,6 +7,4 @@ public class ChampionSpells {
     public String spellE;
     public String spellR;
 
-    //spell reaction
-
 }

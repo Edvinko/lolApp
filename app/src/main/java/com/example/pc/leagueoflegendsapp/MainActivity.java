@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         champName.setText(name);
 
         //ubacivanje slike heroja u layout(ImageView)
-        ImageView champImage = (ImageView) heroj1.findViewById(R.id.imageChamp); 
+        ImageView champImage = (ImageView) heroj1.findViewById(R.id.imageChamp);
         champImage.setImageDrawable(img);
 
     }
