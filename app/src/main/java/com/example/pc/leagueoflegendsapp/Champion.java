@@ -2,6 +2,7 @@ package com.example.pc.leagueoflegendsapp;
 
 public class Champion {
 
+    public int imageId;
     public String name;
     public String epithet;
     public String role;
