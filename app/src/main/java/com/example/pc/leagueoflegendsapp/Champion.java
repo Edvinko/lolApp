@@ -1,18 +1,33 @@
 package com.example.pc.leagueoflegendsapp;
 
-public class Champion {
+import java.io.Serializable;
 
-    public int imageId;
-    public String name;
-    public String epithet;
-    public String role;
-    public String damageType;
-    public String difficulity;
-    public String story;
+public class Champion implements Serializable {
 
-    public Spell spellP;
-    public Spell spellQ;
-    public Spell spellW;
-    public Spell spellE;
-    public Spell spellR;
+    private int imageId;
+    private String name;
+    private String epithet;
+    private String role;
+    private String damageType;
+    private String difficulity;
+    private String story;
+
+    private Spell spellP;
+    private Spell spellQ;
+    private Spell spellW;
+    private Spell spellE;
+    private Spell spellR;
+
+    public Champion(int imageId, String name) {
+        this.imageId = imageId;
+        this.name = name;
+    }
+
+    public int getImageId() {
+        return imageId;
+    }
+
+    public String getName() {
+        return name;
+    }
 }

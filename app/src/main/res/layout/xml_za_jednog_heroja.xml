@@ -12,8 +12,7 @@
     <ImageView
         android:id="@+id/imageChamp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/braum"/>
+        android:layout_height="wrap_content"/>
 
     <TextView
         android:id="@+id/nameChamp"
@@ -21,8 +20,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:textSize="20dp"
-        android:textColor="#a66e28"
-        android:text="Braum"/>
+        android:textColor="#a66e28"/>
 
 </LinearLayout>
 
