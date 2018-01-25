@@ -27,9 +27,6 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
             case 1:
                 AbilitiesFragment abilitiesFragment = new AbilitiesFragment();
                 return abilitiesFragment;
-            case 2:
-                SkinsFragment skinsFragment = new SkinsFragment();
-                return skinsFragment;
             default:
                 return null;
         }

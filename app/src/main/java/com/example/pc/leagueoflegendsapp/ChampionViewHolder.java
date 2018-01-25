@@ -9,7 +9,6 @@ import android.view.View;
 
 public class ChampionViewHolder extends RecyclerView.ViewHolder {
     public ChampionViewHolder(View itemView) {
-
         super(itemView);
     }
 }

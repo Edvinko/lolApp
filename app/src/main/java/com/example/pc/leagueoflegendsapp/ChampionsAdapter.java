@@ -9,6 +9,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+import com.example.pc.leagueoflegendsapp.model.Champion;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,7 +21,7 @@ import java.util.List;
 
 public class ChampionsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
-    private List<Champion> champions = makeChampions();
+    private List<Champion> champions = new ArrayList<>();
     private MainActivity activity;
 
     // Recycler view kad se prikaze na ekranu, njemu treba po jedan view holder za svaki red u listi.
@@ -62,7 +65,9 @@ public class ChampionsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
         final Champion champion = champions.get(position);
 
         ((TextView) holder.itemView.findViewById(R.id.nameChamp)).setText(champion.getName());
-        ((ImageView) holder.itemView.findViewById(R.id.imageChamp)).setImageDrawable(ContextCompat.getDrawable(holder.itemView.getContext(), champion.getImageId()));
+        ((TextView) holder.itemView.findViewById(R.id.titleChamp)).setText(champion.getEpithet());
+        ((ImageView) holder.itemView.findViewById(R.id.imgRole)).setImageDrawable(ContextCompat.getDrawable(holder.itemView.getContext(), champion.getRoleImageId()));
+        Glide.with(holder.itemView.getContext()).load(champion.getIconUrl()).into((ImageView) holder.itemView.findViewById(R.id.imageChamp));
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -79,25 +84,14 @@ public class ChampionsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
         return champions.size();
     }
 
-    private List<Champion> makeChampions() {
-        List<Champion> champions = new ArrayList<>();
-
-        champions.add(new Champion(R.drawable.aatrox, "Aatrox"));
-        champions.add(new Champion(R.drawable.ahri, "Ahri"));
-        champions.add(new Champion(R.drawable.akali, "Akali"));
-        champions.add(new Champion(R.drawable.alistar, "Alistar"));
-        champions.add(new Champion(R.drawable.amumu, "Amumu"));
-        champions.add(new Champion(R.drawable.anivia, "Anivia"));
-        champions.add(new Champion(R.drawable.annie, "Annie"));
-        champions.add(new Champion(R.drawable.ashe, "Ashe"));
-        champions.add(new Champion(R.drawable.aurelion_sol, "Aurelion Sol"));
-        champions.add(new Champion(R.drawable.azir, "Azir"));
-        champions.add(new Champion(R.drawable.bard, "Bard"));
-
-        return champions;
-    }
-
     public void setActivity(MainActivity activity) {
         this.activity = activity;
+    }
+
+    public void setChampions(List<Champion> champions) {
+        this.champions.clear();
+        this.champions.addAll(champions);
+
+        notifyDataSetChanged();
     }
 }
