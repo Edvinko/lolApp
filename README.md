@@ -16,10 +16,10 @@ A simple Android app I made to apply for Klika internship. This is my first real
 
 ## Screenshots
 
-https://postimg.org/image/lsnnoa4gr/][img]
+[url=https://postimg.org/image/t8mxac7ob/][img]https://s17.postimg.org/t8mxac7ob/device-2018-01-26-112655.png[/img][/url]
 
-https://postimg.org/image/3pukx2o1n/][img]
+[url=https://postimg.org/image/o9zevtbl7/][img]https://s17.postimg.org/o9zevtbl7/device-2018-01-26-112816.png[/img][/url]
 
-https://postimg.org/image/qejrwnskr/][img]
+[url=https://postimg.org/image/agb26ryff/][img]https://s17.postimg.org/agb26ryff/device-2018-01-26-112858.png[/img][/url]
 
 
