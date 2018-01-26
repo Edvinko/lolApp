@@ -16,3 +16,6 @@ A simple Android app I made to apply for Klika internship. This is my first real
 
 ## Screenshots
 
+C:\Users\PC\Desktop/device-2018-01-26-112858
+
+
