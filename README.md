@@ -16,14 +16,9 @@ A simple Android app I made to apply for Klika internship. This is my first real
 
 ## Screenshots
 
-https://postimg.org/image/agb26ryff/][img
-
-https://postimg.org/image/t8mxac7ob/][img
-
-https://postimg.org/image/o9zevtbl7/][img
-
-
-
+http://prntscr.com/i6l3jl
+http://prntscr.com/i6l3ph
+http://prntscr.com/i6l3u5
 
 
 
