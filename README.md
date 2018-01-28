@@ -18,9 +18,16 @@ A simple Android app I made to apply for Klika internship. This is my first real
 
 http://prntscr.com/i6l3jl
 
+http://prntscr.com/i6ochh
+
+http://prntscr.com/i6obsr
+
+http://prntscr.com/i6obyg
+
+http://prntscr.com/i6oc39
+
+http://prntscr.com/i6oc7x
+
 http://prntscr.com/i6l3ph
 
 http://prntscr.com/i6l3u5
-
-
-
