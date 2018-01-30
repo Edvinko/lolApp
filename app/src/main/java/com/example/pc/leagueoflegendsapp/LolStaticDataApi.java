@@ -14,7 +14,7 @@ public interface LolStaticDataApi {
     String BASE_CHAMP_SPLASH = "http://ddragon.leagueoflegends.com/cdn/img/champion/loading/";
     String BASE_PASSIVE_SPELL_ICON = "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/passive/";
 
-    @Headers("X-Riot-Token: RGAPI-02c24f1a-e932-49bd-b031-e50456f31393")
+    @Headers("X-Riot-Token: RGAPI-46291037-8fbc-4ef5-be70-f630aad0deaf")
     @GET("/lol/static-data/v3/champions?tags=lore&tags=image&tags=info&tags=tags&tags=spells&tags=passive")
     Call<ChampionsApiResponse> getChampions();
 }

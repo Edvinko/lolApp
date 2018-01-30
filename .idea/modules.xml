@@ -4,9 +4,7 @@
     <modules>
       <module fileurl="file://C:\Users\PC\AndroidStudioProjects\LolApp\lolApp\LeagueofLegendsApp.iml" filepath="C:\Users\PC\AndroidStudioProjects\LolApp\lolApp\LeagueofLegendsApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\PC\AndroidStudioProjects\lolApp\lolApp\app\app.iml" filepath="C:\Users\PC\AndroidStudioProjects\lolApp\lolApp\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/lolApp.iml" filepath="$PROJECT_DIR$/lolApp.iml" />
-      <module fileurl="file://C:\Users\PC\AndroidStudioProjects\lolApp\lolApp\lolApp.iml" filepath="C:\Users\PC\AndroidStudioProjects\lolApp\lolApp\lolApp.iml" />
     </modules>
   </component>
 </project>
